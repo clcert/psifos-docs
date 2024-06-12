@@ -30,8 +30,8 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/"
-# url = "/docs/1.0/prologue/introduction/"
+# url = "/docs/"
+  url = "/docs/prologue/prólogo/"
   weight = 10
 
 [[main]]
@@ -74,7 +74,7 @@
 #   weight = 30
 
 [[footer]]
-  name = "Privacy Policy"
+  name = "Política de Privacidad"
   url = "/privacy/"
   weight = 10
 
