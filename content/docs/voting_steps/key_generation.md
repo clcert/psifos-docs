@@ -46,37 +46,39 @@ de Claves, la cual se debe realizar de manera síncrona entre todos los
 Custodios, es decir, deben estar presentes al mismo tiempo.
 
 La Ceremonia de Creación de Claves procede de la siguiente manera:
-1. Cada Custodio de Clave deberá ingresar al enlace del Portal de
-Custodio de Clave de la elección respectiva donde fue asignado.
-2. Lo primero que deberá realizar será ingresar
-sus credenciales del sitio de autentificación. Una vez validadas sus
-credenciales, el sistema verificará si ha sido designado como
-Custodio de Clave.
-3. Una vez verificada su designación, el sistema le desplegará
-la opción de generar su **clave privada**. Esta clave privada consiste
-en un archivo `.key` que el Custodio de Clave deberá descargar y
-almacenar hasta el escrutinio de la elección.
-Ese archivo es *único, personal e intransferible*. Es por ello,
-que se recomienda respaldar ese archivo en un dispositivo de almacenamiento
-externo. Una vez descargada la clave privada, el sistema le solicitará
-que pueda subir esa clave, con el objetivo de verificar que fue correctamente
-descargada.
-4. Al validar la correctitud de la clave privada, el sistema comienza el
-proceso de Sincronización, entre los Custodios de Clave. Este proceso toma
-algunos minutos, y tiene el objetivo de que todos los Custodios de Clave
-intercambien valores para asegurar el correcto procedimiento de cada uno
-de ellos.
-5. Una vez finzalizado el proceso de Sincronización, la Ceremonia de Creación
-de Claves habrá terminado. El servidor reúne la información enviada por
-cada Custodio de Clave, y calculará la **clave pública** de la elección,
-la cuál será utilizada para poder *encriptar* los votos, es decir, que
-sean secretos.
 
-*Nota: está en proceso de desarrollo una aplicación móvil para Custodios de
+1. Cada Custodio de Clave deberá ingresar al enlace del Portal de
+   Custodio de Clave de la elección respectiva donde fue asignado.
+2. Lo primero que deberá realizar será ingresar
+   sus credenciales del sitio de autentificación. Una vez validadas sus
+   credenciales, el sistema verificará si ha sido designado como
+   Custodio de Clave.
+3. Una vez verificada su designación, el sistema le desplegará
+   la opción de generar su **clave privada**. Esta clave privada consiste
+   en un archivo `.key` que el Custodio de Clave deberá descargar y
+   almacenar hasta el escrutinio de la elección.
+   Ese archivo es _único, personal e intransferible_. Es por ello,
+   que se recomienda respaldar ese archivo en un dispositivo de almacenamiento
+   externo. Una vez descargada la clave privada, el sistema le solicitará
+   que pueda subir esa clave, con el objetivo de verificar que fue correctamente
+   descargada.
+4. Al validar la correctitud de la clave privada, el sistema comienza el
+   proceso de Sincronización, entre los Custodios de Clave. Este proceso toma
+   algunos minutos, y tiene el objetivo de que todos los Custodios de Clave
+   intercambien valores para asegurar el correcto procedimiento de cada uno
+   de ellos.
+5. Una vez finzalizado el proceso de Sincronización, la Ceremonia de Creación
+   de Claves habrá terminado. El servidor reúne la información enviada por
+   cada Custodio de Clave, y calculará la **clave pública** de la elección,
+   la cuál será utilizada para poder _encriptar_ los votos, es decir, que
+   sean secretos.
+
+_Nota: está en proceso de desarrollo una aplicación móvil para Custodios de
 Clave, por lo que la Ceremonia de Creación de Claves se modificará una vez
-que se lance la aplicación móvil mencionada*
+que se lance la aplicación móvil mencionada_
 
 ### ¿Quiéres saber más?
-El proceso matemático detrás de la Creación de Claves se llama *Distributed
-Key Generation (DKG)*, del cual puedes encontrar más referencias en la sección
+
+El proceso matemático detrás de la Creación de Claves se llama _Distributed
+Key Generation (DKG)_, del cual puedes encontrar más referencias en la sección
 Criptografía.

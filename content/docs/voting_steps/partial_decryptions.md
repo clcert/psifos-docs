@@ -38,5 +38,5 @@ conocer el resultado final.
 ### ¿Quiéres saber más?
 
 El proceso de cálculo, envío y combinación de desencriptaciones parciales se basa
-en el algoritmo de *Distributed Key Generation (DKG)*, del cual puedes
+en el algoritmo de _Distributed Key Generation (DKG)_, del cual puedes
 conocer más en la sección Criptografía.

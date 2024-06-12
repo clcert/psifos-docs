@@ -28,7 +28,7 @@ de Clave y los administradores del sistema.
 
 El sistema permite que no sea necesario contar con todas las desencriptaciones
 parciales para poder calcular el resultado final de la elección.
-Solamente es necesario contar con un número mayor que el umbral (*threshold*)
+Solamente es necesario contar con un número mayor que el umbral (_threshold_)
 establecido al momento de configurar la elección. Se recomienda
 que dicho umbral sea la mitad del número de custodios, más uno. Es decir,
 si la elección tiene tres (3) Custodios de Clave, se puede calcular
