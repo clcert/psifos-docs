@@ -1,5 +1,6 @@
 ---
 title: "Envío de Votos"
+slug: vote-casting
 description: ""
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -16,7 +17,7 @@ seo:
 
 ## Apertura de Elección
 
-Para poder abrir la elección, es necesario que se hayan completado
+Para poder abrir la elección, es necesario que se haya completado
 el proceso de Configuración y Creación de Claves. La apertura de la
 elección se realiza de manera manual por parte del administrador
 del sistema. Una vez abierta la elección, los votantes que se
@@ -43,7 +44,8 @@ siguiente:
    Mesa de Ayuda, para que pueda resolver alguna duda sobre su designación.
 2. Dentro de la Cabina de Votación, lo primero que deberá realizar el
    votante será la Selección de preferencias. Por cada pregunta en la elección,
-   el votante deberá seleccionar la(s) preferencia(s) que desee escoger. El
+   el votante deberá seleccionar la(s) preferencia(s) que desee escoger. Si 
+   la votación lo requiere, el
    sistema ofrece la opción de agregar las opciones "Voto Blanco" y
    "Voto Nulo", las cuáles aparecerán de manera explícita entre las opciones
    disponibles.

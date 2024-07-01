@@ -1,5 +1,6 @@
 ---
 title: "Generación de Claves"
+slug: key-generation
 description: ""
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -17,26 +18,9 @@ seo:
 Antes de iniciar la elección, es necesario generar las claves
 de la elección. Al final del proceso, se generará una **clave
 pública**, que será utilizada para poder encriptar los votos,
-además de que cada Custodio de Clave contará con una **clave
+además de que cada [Custodio de Clave]({{< ref "/docs/roles/trustee.md" >}}) contará con una **clave
 privada**, la cual deberá utilizar para enviar su
 desencriptación parcial al final de la elección.
-
-## Designación de Custodio de Clave
-
-Para cada elección, se deben designar a las personas que cumplan
-el rol de Custodio de Clave. Por lo general, se recomienda que se
-utilice un número impar y, al menos, tres (3) Custodios de Claves.
-Las personas que cumplirán el rol de Custodio de Clave deben tener
-independencia unas de otras, ya que se debe minimizar la posibilidad
-de colusión entre ellas.
-
-Las personas que sean designadas como Custodio de Clave poseerán la
-responsabilidad (en otras palabras, el poder) de preservar, al menos,
-dos propiedades inherentes a toda elección: (1) el secreto de los
-votos, y (2) el cálculo del resultado final. Si los Custodios de Clave
-no operan honesta y correctamente, es posible que las propiedades
-antes mencionadas no se cumplan en su totalidad, lo cual es perjudicial
-para el desarrollo de un correcto proceso de elección.
 
 ## Ceremonia de Creación de Claves
 
@@ -76,6 +60,8 @@ La Ceremonia de Creación de Claves procede de la siguiente manera:
 _Nota: está en proceso de desarrollo una aplicación móvil para Custodios de
 Clave, por lo que la Ceremonia de Creación de Claves se modificará una vez
 que se lance la aplicación móvil mencionada_
+
+{{< figure src="images/voting_steps/key_generation.png" alt="" caption="Esquema de Generación de Claves" >}}
 
 ### ¿Quiéres saber más?
 

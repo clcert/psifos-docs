@@ -1,11 +1,12 @@
 ---
-title: "Pasos de la Votación"
+title: "Votante"
+slug: voter
 description: ""
 summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2023-09-07T16:04:48+02:00
+lastmod: 2023-09-07T16:04:48+02:00
 draft: false
-weight: 200
+weight: 840
 toc: true
 seo:
   title: "" # custom title (optional)

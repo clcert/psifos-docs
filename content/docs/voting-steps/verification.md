@@ -1,5 +1,6 @@
 ---
 title: "Verificación de la Elección"
+slug: election-verification
 description: ""
 summary: ""
 date: 2023-09-07T16:04:48+02:00

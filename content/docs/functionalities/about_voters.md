@@ -1,5 +1,6 @@
 ---
 title: "Caracterización de Votantes"
+slug: about-voters
 description: ""
 summary: ""
 date: 2023-09-07T16:04:48+02:00
