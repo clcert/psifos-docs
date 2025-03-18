@@ -1,4 +1,4 @@
-title = "PsifosVoting"
+title = "UParticipa"
 baseurl = "http://localhost/"
 canonifyURLs = false
 disableAliases = true
@@ -7,16 +7,17 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "es-CL"
+languageCode = "en-US"
+pagerSize = 10
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
 # Multilingual
-defaultContentLanguage = "es"
-disableLanguages = ["en", "de", "nl"]
+defaultContentLanguage = "en"
+disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2020-2024 Thulite"
 
 [build.buildStats]
   enable = true

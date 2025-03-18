@@ -30,3 +30,11 @@ votos, y (2) el cálculo del resultado final. Si los Custodios de Clave
 no operan honesta y correctamente, es posible que las propiedades
 antes mencionadas no se cumplan en su totalidad, lo cual es perjudicial
 para el desarrollo de un correcto proceso de elección.
+
+## Rol de Custodio de Clave
+
+Los Custodios de Clave deberán participar tanto en la Ceremonia de 
+Creación de Claves (antes del inicio de la elección), como en la Ceremonia
+de Escrutinio (después del cierre de la elección). Durante el transcurso 
+de la jornada, los Custodios de Clave no poseen un rol activo, pero sí 
+pueden participar en el monitoreo y supervisión del proceso.
