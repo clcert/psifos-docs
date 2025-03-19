@@ -1,5 +1,5 @@
 title = "UParticipa"
-baseurl = "http://localhost/"
+baseurl = "https://docs.uparticipa.cl"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
