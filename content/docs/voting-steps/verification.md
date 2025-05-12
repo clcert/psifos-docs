@@ -25,3 +25,14 @@ En el Portal de Información se encuentran las instrucciones necesarias
 para poder verificar una elección. Actualmente, solamente existe un método
 de verificación, que consiste en descargar un programa que lee los datos
 de la elección y verifica todas las propiedades necesarias.
+
+### Script de Verificación
+
+El programa que lee el archivo de verificación realiza las siguientes verificaciones:
+- Revisa las pruebas en cada uno de los votos encriptados recibidos.
+- Revisa que todos los votos encriptados están asociados a un votante específico 
+del padrón.
+- Realiza un precómputo con la información pública, y chequea las pruebas 
+enviadas por cada custodio de clave.
+- Realiza una combinación de las desencriptaciones parciales, y chequea
+que el resultado publicado es consistente y correcto.
